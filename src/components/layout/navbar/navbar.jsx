@@ -3,7 +3,7 @@ import Profile from "../profile/profile"
 export default function Navbar() {
   return(
     <>
-      <div className=' text-black bg-slate-100  w-full shadow-lg shadow-indigo-50'>
+      <div className=' text-black bg-slate-100 fixed  w-full shadow-lg shadow-indigo-100'>
         <div className="flex items-center justify-between p-1-5">
           <div className="flex items-center ">
             <Profile/>
