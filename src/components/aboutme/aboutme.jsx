@@ -1,4 +1,5 @@
 import Biography from "./biography/biography"
+import Skills from "./skills/skills"
 
 export default function Aboutme() {
   return(
