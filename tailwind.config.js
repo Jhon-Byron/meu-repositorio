@@ -14,7 +14,8 @@ module.exports = {
       },
       backgroundImage: {
         'gif-technology': "url('https://i.pinimg.com/originals/63/bc/93/63bc93a35b8b63bb44923bc733394603.gif')",
-        'mouse' : "url('https://static.wixstatic.com/media/bbcfb5_93fbff89deef44afaf7eb19dfe908440~mv2.gif')"
+        'mouse' : "url('https://static.wixstatic.com/media/bbcfb5_93fbff89deef44afaf7eb19dfe908440~mv2.gif')",
+        'projectContainer' : "url('https://i.ibb.co/xz0hXDM/project-mockup-example.jpg')"
       },
       dropShadow: {
         'text-b': [
