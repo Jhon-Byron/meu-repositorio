@@ -8,7 +8,7 @@ export default function MenuLateral() {
           <li>
             <a href="https://github.com/Jhon-Byron" target="_blank">
               <Image 
-                src="/github.svg" 
+                src="/svg/github.svg" 
                 alt="icone github" 
                 width={50}
                 height={50}
@@ -18,7 +18,7 @@ export default function MenuLateral() {
           <li>
             <a href="https://www.linkedin.com/in/jhon-byron-7b12881b1/" target="_blank" >
               <Image
-              src="/linkedin-in.svg" 
+              src="/svg/linkedin-in.svg" 
               alt="icone linkedin"
               width={50}
               height={50}
