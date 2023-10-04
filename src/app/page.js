@@ -4,6 +4,7 @@ import MenuLateral from "@/components/layout/menulateral/menulateral"
 import Aboutme from "@/components/aboutme/aboutme"
 import ProjectTitle from "@/components/projects/projectittle"
 import Contact from "@/components/contact/contact"
+import Copyright from "@/components/copyright/copyright"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Aboutme />
       <ProjectTitle />
       <Contact />
+      <Copyright />
     </>
   )
 }
