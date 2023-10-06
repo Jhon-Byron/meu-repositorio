@@ -1,22 +1,35 @@
-import Button from "@/components/layout/button/button"
-import SkillsBoxs from "@/components/layout/skillsboxs/skillsboxs"
+import Button from "@/components/layout/button/button";
+import Backend from "@/components/layout/skillsboxs/backend/backend";
+import Frontend from "@/components/layout/skillsboxs/frontend/frontend";
+import Database from "@/components/layout/skillsboxs/database/database";
 
 
 export default function Biography() {
-  return(
+  return (
     <>
-    <div className="grid grid-cols-2 gap-20 h-full bg-red-950">
-        <div className="bg-blue-800 p-36">
-          <h3 className="text-5xl text-black font-One mb-8">Me Conheça!</h3>
-            <p className="text-xl">ola meu nome e <br /> 
-            <span className="text-bold">Jhon Byron Sarria Brito</span>, <br />tenho 23 anos, atualmente trabalhando na area da industria, desde pequeno sempre gostei de tecnologia mas nunca me imaginei poder trabalhar nesse ramo tao incrível da programação ate o ano de 2023 onde tive a oportunidade de conhecer a area de desenvolvimento web onde a ideia de poder criar sistemas simples aos complexos me da animo para estudar e me aperfeiçoar cada vez mais nesse ramo  </p>
-            <Button>Contato</Button>  
+      <div className="grid grid-cols-2 gap-20 h-full bg-white">
+        <div className=" p-36">
+          <h3 className="text-4xl text-black font-One mb-8 uppercase">Me Conheça!</h3>
+          <p className="text-lg max-w-xl text-gray-300">
+            Ola meu nome e {}
+            <span className="text-neutral-950">Jhon Byron Sarria Brito</span>, <br />
+              Tenho 23 anos e atualmente trabalho na área da indústria. Desde a
+              infância, sempre tive um profundo interesse em tecnologia, mas
+              nunca imaginei que teria a oportunidade de seguir uma carreira tão
+              incrível na programação. Tudo mudou em 2023, quando tive a
+              oportunidade de mergulhar no mundo do desenvolvimento web. A ideia
+              de criar sistemas, desde os mais simples até os mais complexos, me
+              inspira a estudar e aperfeiçoar minhas habilidades constantemente
+              nessa área empolgante.
+          </p>
+          <Button>Contato</Button>
         </div>
-        <div className="p-36">
-          <h3 className="text-5xl font-One text-black mb-10">my skills</h3>
-          <SkillsBoxs />
+        <div className="p-8">
+          <Frontend />
+          <Backend />
+          <Database />
         </div>
       </div>
     </>
-  )
+  );
 }
