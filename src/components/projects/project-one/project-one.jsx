@@ -1,20 +1,40 @@
-import Button from "@/components/layout/button/button"
+import Button from "@/components/layout/button/button";
+import Slide1 from "./slide1";
 
 export default function ProjectOne() {
-  return(
+  return (
     <>
-    <div className="grid grid-cols-2 gap-20 h-full ">
-        <div className="bg-blue-800 p-36">
-          <h3 className="text-5xl text-black font-One mb-8">Me Conheça!</h3>
-            <p className="text-xl">ola meu nome e <br /> 
-            <span className="text-bold">Jhon Byron Sarria Brito</span>, <br />tenho 23 anos, atualmente trabalhando na area da industria, desde pequeno sempre gostei de tecnologia mas nunca me imaginei poder trabalhar nesse ramo tao incrível da programação ate o ano de 2023 onde tive a oportunidade de conhecer a area de desenvolvimento web onde a ideia de poder criar sistemas simples aos complexos me da animo para estudar e me aperfeiçoar cada vez mais nesse ramo  </p>
-            <Button>Contato</Button>  
+      <div className="grid grid-cols-2 gap-20 h-full ">
+        <div className="bg-gray-50 p-36 text-gray-300">
+          <h3 className="text-5xl text-black font-One mb-8">Social Dev</h3>
+          <p className="text-xl ">
+            Rede Social para Programadores foi desenvolvido uma rede social para
+            programadores cujo objetivo é criar uma comunidade onde
+            programadores possam compartilhar conhecimento e aprender juntos{" "}
+          </p>
+          <p className="text-xl">
+            <span className="font-bold text-black"> • Frontend:</span> Utilizamos React,
+            Next.js e Styled Components para uma interface responsiva e
+            atraente.
+          </p>
+          <p className="text-xl">
+            <span className="font-bold text-black">• Backend:</span> Construímos o backend
+            com Node.js e Next.js, enfocando segurança e desempenho.{" "}
+          </p>
+          <p className="text-xl">
+            <span className="font-bold text-black"> • Banco de Dados:</span> Armazenamos
+            dados dos usuários de forma eficiente no MongoDB usando Mongoose.{" "}
+          </p>
+          <p className="text-xl">
+            Implementando autenticação segura e funcionalidades para criar,
+            editar e excluir textos de autoria dos usuários.
+          </p>
+          <Button>Ver Site</Button>
         </div>
-        <div className="bg-projectContainer bg-no-repeat bg-center bg-red-800  p-10">
-          <h3 className="text-5xl font-One text-black mb-10">my skills</h3>
-          
+        <div className=" bg-red-800 p-10">
+          <Slide1 />
         </div>
       </div>
     </>
-  )
+  );
 }
