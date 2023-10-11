@@ -31,9 +31,11 @@ export default function ProjectOne() {
           </p>
           <Button>Ver Site</Button>
         </div>
-        <div className=" bg-red-800 p-10">
-          <Slide1 />
+        <div className="bg-red-800">
+        <Slide1/>
         </div>
+         
+        
       </div>
     </>
   );
