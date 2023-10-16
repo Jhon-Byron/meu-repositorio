@@ -13,17 +13,18 @@ export default function ProjectOne() {
             programadores possam compartilhar conhecimento e aprender juntos{" "}
           </p>
           <p className="text-xl">
-            <span className="font-bold text-black"> • Frontend:</span> Utilizamos React,
-            Next.js e Styled Components para uma interface responsiva e
-            atraente.
+            <span className="font-bold text-black"> • Frontend:</span>{" "}
+            Utilizamos React, Next.js e Styled Components para uma interface
+            responsiva e atraente.
           </p>
           <p className="text-xl">
-            <span className="font-bold text-black">• Backend:</span> Construímos o backend
-            com Node.js e Next.js, enfocando segurança e desempenho.{" "}
+            <span className="font-bold text-black">• Backend:</span> Construímos
+            o backend com Node.js e Next.js, enfocando segurança e desempenho.{" "}
           </p>
           <p className="text-xl">
-            <span className="font-bold text-black"> • Banco de Dados:</span> Armazenamos
-            dados dos usuários de forma eficiente no MongoDB usando Mongoose.{" "}
+            <span className="font-bold text-black"> • Banco de Dados:</span>{" "}
+            Armazenamos dados dos usuários de forma eficiente no MongoDB usando
+            Mongoose.{" "}
           </p>
           <p className="text-xl">
             Implementando autenticação segura e funcionalidades para criar,
@@ -31,11 +32,9 @@ export default function ProjectOne() {
           </p>
           <Button>Ver Site</Button>
         </div>
-        <div className="bg-red-800">
-        <Slide1/>
+        <div >
+          <Slide1 />
         </div>
-         
-        
       </div>
     </>
   );
