@@ -1,20 +1,36 @@
-import Button from "@/components/layout/button/button"
+import Button from "@/components/layout/button/button";
+import Slide2 from "./slide2";
 
-export default function ProjectTwo() {
-  return(
+
+export default function ProjectOne() {
+  return (
     <>
-    <div className="grid grid-cols-2 gap-20 h-full ">
-        <div className="bg-blue-800 p-36">
-          <h3 className="text-5xl text-black font-One mb-8">Me Conheça!</h3>
-            <p className="text-xl">ola meu nome e <br /> 
-            <span className="text-bold">Jhon Byron Sarria Brito</span>, <br />tenho 23 anos, atualmente trabalhando na area da industria, desde pequeno sempre gostei de tecnologia mas nunca me imaginei poder trabalhar nesse ramo tao incrível da programação ate o ano de 2023 onde tive a oportunidade de conhecer a area de desenvolvimento web onde a ideia de poder criar sistemas simples aos complexos me da animo para estudar e me aperfeiçoar cada vez mais nesse ramo  </p>
-            <Button>Contato</Button>  
+     <div className="grid grid-cols-2 gap-20 m-6 h-full ">
+        <div className="bg-gray-50 p-36 rounded-xl text-gray-300">
+          <h3 className="text-5xl text-black font-One mb-8">Jogo da Velha</h3>
+          <p className="text-xl ">
+          Jogo da Velha Moderno com React e Next.js{" "}
+          </p>
+          <p className="text-xl">
+            <span className="font-bold text-black"> • Placar Atualizado:</span>{" "}
+            Mantenha o controle da pontuação.
+          </p>
+          <p className="text-xl">
+            <span className="font-bold text-black">• Vencedor Detectado:</span> Saiba instantaneamente quem ganhou.{" "}
+          </p>
+          <p className="text-xl">
+            <span className="font-bold text-black"> • Reinício Simples:</span>{" "}
+            Comece novamente em caso de empate.{" "}
+          </p>
+          <p className="text-xl">
+          Experimente a diversão da velha escola com tecnologia de ponta. Jogue com amigos, A diversão é garantida!
+          </p>
+          <Button>Ver Site</Button>
         </div>
-        <div className="bg-projectContainer bg-no-repeat bg-center bg-red-800  p-10">
-          <h3 className="text-5xl font-One text-black mb-10">my skills</h3>
-         
+        <div >
+          <Slide2 />
         </div>
       </div>
     </>
-  )
+  );
 }
