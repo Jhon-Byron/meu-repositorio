@@ -3,7 +3,7 @@ import Introduction from "@/components/introduction/introduction"
 import MenuLateral from "@/components/layout/menulateral/menulateral"
 import Aboutme from "@/components/aboutme/aboutme"
 import ProjectTitle from "@/components/projects/projectittle"
-import Contact from "@/components/contact/contact"
+import ContactTitle from "@/components/contact/contacttitle"
 import Copyright from "@/components/copyright/copyright"
 
 export default function Home() {
@@ -14,7 +14,7 @@ export default function Home() {
       <MenuLateral />
       <Aboutme />
       <ProjectTitle />
-      <Contact />
+      <ContactTitle />
       <Copyright />
     </>
   )
