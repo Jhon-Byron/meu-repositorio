@@ -16,14 +16,6 @@ module.exports = {
         'gif-technology': "url('https://i.pinimg.com/originals/63/bc/93/63bc93a35b8b63bb44923bc733394603.gif')",
         'mouse' : "url('https://static.wixstatic.com/media/bbcfb5_93fbff89deef44afaf7eb19dfe908440~mv2.gif')",
       },
-      dropShadow: {
-        'text-b': [
-          '3px 3px 0 #000',
-          '-3px 3px 0 #000',
-          '-3px -3px 0 #000',
-          '3px -3px 0 #000'
-        ],
-      },
       colors: {
         gray: {
           50: '#eaeaea',

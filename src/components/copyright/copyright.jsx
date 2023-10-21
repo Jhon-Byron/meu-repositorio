@@ -3,15 +3,12 @@ import Image from "next/image";
 export default function Copyright() {
   return (
     <>
-      <div className="bg-red-800 h-96">
-        <div className="grid grid-cols-2 gap-20">
-          <div>
-            <h2>Jhon Byron</h2>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
-              nesciunt cupiditate illum! Illum, reprehenderit similique quo
-              voluptatibus mollitia pariatur accusantium quia molestias possimus
-              laudantium aliquid fuga delectus excepturi quae quasi.
+      <div className="bg-gray-900 h-full ">
+        <div className="grid grid-cols-2 gap-20 p-20 ">
+          <div className="flex flex-col ml-[400px] text-white  w-2/4 ">
+            <h2 className="text-2xl uppercase font-bold font-One mb-4">Jhon Byron</h2>
+            <p className="font-sans">
+              Minha abordagem de aprendizado é orientada para a prática, com foco na resolução de desafios e na busca constante de novos conhecimentos
             </p>
           </div>
           <div>
@@ -36,7 +33,7 @@ export default function Copyright() {
             </div>
           </div>
         </div>
-        <footer className="w-[100%] flex justify-center p-16 bg-blue-800">
+        <footer className="w-[100%] flex justify-center p-10 bg-blue-800">
           <p className="">© Copyright 2023 todos os direitos reservados</p>
         </footer>
       </div>
