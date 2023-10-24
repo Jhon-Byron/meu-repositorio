@@ -1,12 +1,9 @@
 import Button from "../../layout/button/button";
 
 export default function Contact() {
-  const handleSubmit = (data) => {
-    console.log(data, "clicou aqui");
-  };
 
   return (
-    <div className=" bg-gray-100 flex flex-col items-center">
+    <div className=" bg-black flex flex-col items-center">
       <form className="p-20 m-4 w-2/5 flex flex-col rounded-xl bg-gray-50 text-black">
         <h4 className="text-xl p-1 font-One ">Nome</h4>
         <input
@@ -23,7 +20,7 @@ export default function Contact() {
         <h4 className="text-xl p-1 font-One ">Mensagem</h4>
         <div>
           <textarea
-            className="resize-none w-full p-5 m-1  box-border border-2 rounded-xl border-transparent font-sans bg-white"
+            className="resize-none w-full p-2 m-1  box-border border-2 rounded-xl border-transparent font-sans bg-white"
             placeholder="Digite sua mensagem"
             rows="10"
           />
