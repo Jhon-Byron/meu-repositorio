@@ -4,7 +4,7 @@ export default function MenuLateral() {
   return (
     <>
       <aside className="flex justify-center items-center fixed z-10 top-1/3
-       right-0 w-18 h-64 bg-white rounded-l-3xl max-md:hidden">
+       right-0 w-16 h-64 bg-white rounded-l-3xl max-lg:hidden ">
         <ul>
           <li >
             <a href="https://github.com/Jhon-Byron" target="_blank">

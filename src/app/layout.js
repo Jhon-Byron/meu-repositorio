@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-page-custom-font */
+import * as React from "react"
 import './globals.css'
 import {
   Roboto_Flex as Roboto,
