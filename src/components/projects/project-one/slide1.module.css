@@ -1,6 +1,6 @@
 .Swiper {
   margin: 150px 100px 0 0;
-  width: 90%;
+  width: 100%;
   border-radius: 50px;
 }
 
@@ -23,4 +23,24 @@
   border-width: 8px;
   border-radius: 50px;
   border-color: #121215;
+}
+
+@media (max-width: 1024px) {
+  .Swiper {
+    width: 100vh;
+    height: 400px;
+    margin: 0;
+    border-radius: 0px;
+
+  }
+  .img {
+    border-radius: 0;
+    border-width: 0px;
+  }
+} 
+
+@media (max-width: 768px) {
+  .Swiper {
+    display: none;
+  }
 }

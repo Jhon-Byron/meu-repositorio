@@ -24,6 +24,7 @@ export default function App() {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
+        loop
         className={Style.Swiper}
       >
         <SwiperSlide className={Style.SwiperSlide}>

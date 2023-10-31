@@ -4,8 +4,8 @@ export default function Copyright() {
   return (
     <>
       <div className="bg-gray-900 h-full ">
-        <div className="grid grid-cols-2 gap-20 p-4 ">
-          <div className="flex flex-col ml-[430px] text-white  w-2/4 ">
+        <div className="grid grid-cols-2 gap-20 p-4 max-lg:grid-cols-none ">
+          <div className="flex flex-col ml-[430px] text-white w-2/4 max-lg:m-0 max-lg:w-full">
             <h2 className="text-xl uppercase font-bold font-One mb-4">
               Jhon Byron
             </h2>
@@ -15,7 +15,7 @@ export default function Copyright() {
               conhecimentos
             </p>
           </div>
-          <div className="flex flex-col justify-between ml-56 mb-6">
+          <div className="flex flex-col justify-between ml-56 mb-6 max-lg:m-0">
             <h2 className="text-xl uppercase font-bold font-One mb-4">
               Social
             </h2>
@@ -68,8 +68,8 @@ export default function Copyright() {
             </div>
           </div>
         </div>
-        <div className="w-full flex justify-center   ">
-          <footer className=" w-3/5  p-6  border-t-2">
+        <div className="w-full flex justify-center">
+          <footer className=" w-3/5  p-6  border-t-2 max-lg:w-full">
             <p className="text-center text-xs">
               © Copyright 2023 todos os direitos reservados. Feito por {" "}
               <a href="#" className="border-b-2">Jhon Byron </a>

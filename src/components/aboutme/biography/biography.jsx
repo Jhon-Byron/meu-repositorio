@@ -7,8 +7,8 @@ import Database from "@/components/layout/skillsboxs/database/database";
 export default function Biography() {
   return (
     <>
-      <div className="grid grid-cols-2 gap-20 h-full bg-gray-50">
-        <div className=" p-36">
+      <div className="grid grid-cols-2 gap-20 h-full bg-gray-50  max-lg:grid-cols-none max-lg:gap-0">
+        <div className=" p-36 max-md:p-2 max-md:m-2 max-lg:flex max-lg:flex-col max-lg:items-center">
           <h3 className="text-4xl text-black font-One mb-8 uppercase">Me Conheça!</h3>
           <p className="text-lg max-w-xl text-gray-300">
             Ola meu nome e {}
@@ -24,7 +24,7 @@ export default function Biography() {
           </p>
           <Button>Contato</Button>
         </div>
-        <div className="p-8">
+        <div className="p-8 max-lg:flex max-lg:flex-col max-lg:items-center">
           <Frontend />
           <Backend />
           <Database />
