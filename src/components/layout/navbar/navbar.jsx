@@ -1,19 +1,24 @@
-"use client";
+'use client'
 import { useState } from "react";
+
+
+import { Link } from "react-scroll";
 
 import { BiMenu } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
 
 import Profile from "../profile/profile";
+import ContactTitle from "@/components/contact/contacttitle";
+import Aboutme from "@/components/aboutme/aboutme";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const Links = [
-    { name: "Contato", link: "/" },
-    { name: "Sobre", link: "/" },
-    { name: "Habilidades", link: "/" },
-    { name: "projetos", link: "/" },
+  const links = [
+    { id: "Contato", link: "/" },
+    { id: "Sobre", link: "/" },
+    { id: "Habilidades", link: "/" },
+    { id: "Projetos", link: "/" },
   ];
   return (
     <>
@@ -40,14 +45,19 @@ export default function Navbar() {
               isOpen ? "top-16 " : "top-[-490px]"
             }`}
           >
-            {Links.map((link) => (
-              <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
-                <a
-                  href={link.link}
+            {links.map((link) => (
+              <li key={link.id} className="md:ml-8 text-xl md:my-0 my-7 cursor-pointer">
+                <Link
                   className="text-gray-950 hover:text-gray-100  duration-200"
+                  activeClass="active"
+                  to ={link.id}// Acesse o nome da seção da importação
+                  spy={true}
+                  smooth={true}
+                  offset={-80}
+                  duration={500}
                 >
-                  {link.name}
-                </a>
+                  {link.id}
+                </Link>
               </li>
             ))}
           </ul>
