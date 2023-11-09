@@ -1,6 +1,5 @@
-'use client'
+"use client";
 import { useState } from "react";
-
 
 import { Link } from "react-scroll";
 
@@ -26,7 +25,9 @@ export default function Navbar() {
         <div className="md:flex items-center justify-between bg-white py-4 md:px-10 px-7 h-20">
           <div className="text-black flex items-center  ">
             <Profile />
-            <span className='uppercase font-bold hover:text-gray-100  duration-200 cursor-pointer'>Jhon byron</span>
+            <span className="uppercase font-bold hover:text-gray-100  duration-200 cursor-pointer">
+              Jhon byron
+            </span>
           </div>
           {isOpen ? (
             <AiOutlineClose
@@ -46,11 +47,14 @@ export default function Navbar() {
             }`}
           >
             {links.map((link) => (
-              <li key={link.id} className="md:ml-8 text-xl md:my-0 my-7 cursor-pointer">
+              <li
+                key={link.id}
+                className="md:ml-8 text-xl uppercase font-bold md:my-0 my-7 cursor-pointer"
+              >
                 <Link
                   className="text-gray-950 hover:text-gray-100  duration-200"
                   activeClass="active"
-                  to ={link.id}// Acesse o nome da seção da importação
+                  to={link.id} // Acesse o nome da seção da importação
                   spy={true}
                   smooth={true}
                   offset={-80}

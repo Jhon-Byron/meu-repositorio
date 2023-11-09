@@ -16,7 +16,7 @@ export default function Copyright() {
             </p>
           </div>
           <div className="flex flex-col justify-between ml-56 mb-6 max-lg:m-0">
-            <h2 className="text-xl uppercase font-bold font-One mb-4">
+            <h2 className="text-xl text-white uppercase font-bold font-One mb-4">
               Social
             </h2>
             <div className="flex gap-4 invert ">
@@ -24,8 +24,8 @@ export default function Copyright() {
                 <Image
                   src="/svg/linkedin-in.svg"
                   alt="perfil linkedin"
-                  width={36}
-                  height={36}
+                  width={32}
+                  height={32}
                   className="ease-in-out duration-300 hover:scale-125"
                 />
               </a>
